@@ -23,5 +23,5 @@ def nikto(url):
 	with open ('nikto.txt','w')as f1:
 		t1 =subprocess.run(['nikto','-host',url],stdout=f1,text= 'true')
 		print("(+) Running NAMEOFYOURTOOL")
-		NAMEOFYOURTOOL(url). # calling your tool function
+		NAMEOFYOURTOOL(url). # Add your function name created above
 ```
