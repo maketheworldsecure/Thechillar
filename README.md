@@ -3,10 +3,10 @@
 #### Automation tool used to run multiple tools in single script, basically you can run this script and go chill.The script have the feature to add your custom tools to the execution list.
 ---------------------------
 ## Tools in the list
+
 * NAMP
 * NIKTO
-* GOBUSTER
-* TESTSSL
+
 ## Instruction to add new tool
 #### Step 1 : Install the tool **eg:Testssl** in your linux machine
 #### Step 2 : Add the functiion to the script
