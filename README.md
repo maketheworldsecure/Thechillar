@@ -4,7 +4,7 @@
 ---------------------------
 ## Tools in the list
 
-* NAMP
+* NMAP
 * NIKTO
 
 ## Instruction to add new tool
