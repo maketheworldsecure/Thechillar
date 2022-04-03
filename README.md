@@ -26,8 +26,8 @@ def nikto(url):
 		NAMEOFYOURTOOL(url). # Add your function name created above
 ```
 ## How to run the tool
-#### Step 1:Download the Thechillar.py from repo
 
-#### Step 2:Run the Below command
-Thechillar.py <URL>
+#### Step 1 : Download the Thechillar.py from repo
+
+#### Step 2 : Run the Below command
 eg:Thechillar.py www.google.com
