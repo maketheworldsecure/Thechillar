@@ -7,3 +7,11 @@
 * NIKTO
 * GOBUSTER
 * TESTSSL
+## Instruction to add new tool
+#### Step 1 : Install the tool **eg:Testssl** in your linux machine
+#### Step 2 : Add the functiion to the script
+```python
+def NAMEOFYOURTOOL(url):
+	with open ('NAMEOFYOURTOOL.txt','w')as f1:
+		t1 =subprocess.run(['COMMAND','COMMAND',url],stdout=f1,text= 'true')  # eg : t1 =subprocess.run(['nmap','-sV',url],stdout=f1,text= 'true')		
+```
