@@ -29,5 +29,5 @@ def nikto(url):
 
 #### Step 1 : Download the Thechillar.py from repo
 
-#### Step 2 : Run the Below command
-eg:Thechillar.py www.google.com
+#### Step 2 : Run the Below command from terminal
+eg:Python3 Thechillar.py www.google.com
