@@ -15,3 +15,12 @@ def NAMEOFYOURTOOL(url):
 	with open ('NAMEOFYOURTOOL.txt','w')as f1:
 		t1 =subprocess.run(['COMMAND','COMMAND',url],stdout=f1,text= 'true')  # eg : t1 =subprocess.run(['nmap','-sV',url],stdout=f1,text= 'true')		
 ```
+#### Step 3 : Now call the function 
+```python
+# default last function in Thechillar script is Nikto
+def nikto(url):
+	with open ('nikto.txt','w')as f1:
+		t1 =subprocess.run(['nikto','-host',url],stdout=f1,text= 'true')
+		print("(+) Running YOURTOOLNAME")
+		YOURTOOLNAME(url). # calling your tool function
+```
