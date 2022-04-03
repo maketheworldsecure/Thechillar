@@ -13,7 +13,8 @@
 ```python
 def NAMEOFYOURTOOL(url):
 	with open ('NAMEOFYOURTOOL.txt','w')as f1:
-		t1 =subprocess.run(['COMMAND','COMMAND',url],stdout=f1,text= 'true')  # eg : t1 =subprocess.run(['nmap','-sV',url],stdout=f1,text= 'true')		
+		t1 =subprocess.run(['COMMAND','COMMAND',url],stdout=f1,text= 'true') 
+		# eg : t1 =subprocess.run(['nmap','-sV',url],stdout=f1,text= 'true')		
 ```
 #### Step 3 : Now call the function 
 ```python
@@ -21,6 +22,6 @@ def NAMEOFYOURTOOL(url):
 def nikto(url):
 	with open ('nikto.txt','w')as f1:
 		t1 =subprocess.run(['nikto','-host',url],stdout=f1,text= 'true')
-		print("(+) Running YOURTOOLNAME")
-		YOURTOOLNAME(url). # calling your tool function
+		print("(+) Running NAMEOFYOURTOOL")
+		NAMEOFYOURTOOL(url). # calling your tool function
 ```
